@@ -1,0 +1,241 @@
+
+body {
+	font-family: "Lato", sans-serif;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover{
+	text-decoration: none;
+}
+
+a:visited {
+	text-decoration: none;
+}
+
+ul a {
+	text-decoration: none;
+}
+
+ul a:hover{
+	text-decoration: none;
+}
+
+ul a:visited {
+	text-decoration: none;
+}
+
+#header {
+	padding: 0.5vw;
+	padding-left: 12vw;
+
+}
+
+#header_logo{
+	max-width: 5vw; 
+	max-height: 5vw; 
+	padding-top: 0.5vw;
+	padding-bottom: 0.5vw;
+	display: inline-block;
+}
+
+#header_title {
+	color:gray; 
+	font-size: 1.5vw;
+	position: relative;
+	top: 0.5vw;
+	left: 1vw;
+}
+
+
+.header_menu {
+	list-style-type: none;
+	padding:0vw;
+	padding-top: 1.5vw;
+	margin-right: 12vw;
+	font-size: 1.25vw;
+	float: right;
+}
+
+
+/* reference: https://css-tricks.com/tinted-images-multiple-backgrounds */
+#header_bg{
+	background-image: linear-gradient(
+      rgba(39, 27, 94, 0.35), 
+      rgba(0, 0, 0, 0.8)
+    ), url('mainpage.jpg');
+
+	background-size: cover;
+	background-position: bottom;
+	padding-bottom: 4vw;
+	z-index:1;
+	opacity: 0.99;
+
+}
+
+#header_bg_1 {
+	position: relative;
+	left: 6vw;
+	top: 4.5vw;
+	font-size: 4.5vw;
+	color: rgba(255,255,255, 0.9);
+	margin:0;
+}
+
+#header_bg_2 {
+	position: relative;
+	left: 14vw;
+	top: 6vw;
+	font-size: 2vw;
+	color: rgba(255,255,255, 0.9);
+}
+
+#header_bg_3{
+	font-family: "Ubuntu", sans-serif; 
+	position: relative;
+	left: -4vw;
+	color: white;
+	border-radius: 0.5vw;
+	top: 2vw;
+}
+
+.orange_check {
+	width: 2vw;
+	opacity: 0.7;
+}
+
+.bg_3_pad {
+	padding-left: 2vw;
+	font-size: 1.25vw;
+	color: rgba(255, 255, 255, 1);
+}
+
+.bg_3_extra{
+	position: relative;
+	left: 3vw;
+	padding: 1vw;
+	margin-right:1vw;
+	font-size: 1vw;
+	color: rgba(255, 255, 255, 0.8);
+} 
+
+
+#panel2 {
+	padding: 1.5vw;
+	padding-top: 7vw;
+	text-align: center;
+
+}
+#panel2 img {
+	width: 5vw;
+}
+
+.panel2_header {
+	font-size: 2vw;
+	padding:1vw;
+}
+
+.panel2_desc {
+	font-size: 1.5vw;
+	color: gray;
+}
+
+#panel2_extra {
+	padding-top: 2vw;
+	text-align: center;
+}
+
+#panel2_hr {
+	width: 75%;
+}
+
+#panel2_extra_1 {
+	font-size: 2.5vw;
+	color: #0081dc;
+}
+
+#panel2_extra_2 {
+	font-size: 1.5vw;
+}
+
+
+#panel3 {
+	font-family: "Ubuntu", sans-serif; 
+	font-size: 1.25vw;
+	padding: 3vw;
+	padding-top: 4vw;
+	margin-top: 7vw;
+	color: rgba(255, 255, 255, 0.95);
+	background-color: rgba(11, 0, 47, 0.95);
+}
+
+#panel3_img {
+	width:100%;
+}
+
+#panel4_before {
+	padding-top: 5vw;
+	text-align: center;
+}
+
+#panel4_before_1 {
+	font-size: 3vw;
+}
+
+#panel4_before_2 {
+	font-size: 1.5vw;
+}
+
+#panel4_hr {
+	width:75%;
+}
+
+#panel4 {
+	padding-top: 1vw;
+	padding-bottom: 2vw;
+}
+
+#panel4_img {
+	width:100%;
+
+}
+
+#panel4_after {
+	text-align: center; 
+	padding: 1vw;
+}
+
+#panel4_after_1{
+	font-size: 2.5vw;
+	color: #0081dc;
+}
+
+#panel4_after_2{
+	font-size: 1.5vw;
+}
+
+#footer {
+	position: relative;
+	font-size: 1vw;
+	margin-top: 5vw;
+	padding: 1.25vw;
+	padding-left: 5vw;
+	background-color: rgba(11, 0, 47, 0.95);
+	color: rgba(255, 255, 255, 0.95);
+}
+
+#hr_contact {
+	margin:0;
+	width:87%;
+}
+
+#contact_1{
+	font-size: 1.5vw;
+}
+
+#contact_2 {
+	font-size: 1.75vw;
+	color: #0081dc;
+}
